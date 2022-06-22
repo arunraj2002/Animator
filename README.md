@@ -42,10 +42,8 @@ In blend tree, in blend type choose (2D Freedom Directional), parameter (InputX,
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class idleToCrouch : MonoBehaviour
-{
-    public Animator animator;
+{   public Animator animator;
     public float InputX;
     public float InputY;
     // Start is called before the first frame update
@@ -53,7 +51,6 @@ public class idleToCrouch : MonoBehaviour
     {
         animator = this.gameObject.GetComponent<Animator>();
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -64,20 +61,12 @@ public class idleToCrouch : MonoBehaviour
     }
 }
 ```
-
 ## Output:
 ### CROUCHING:
-![Screenshot (55)](https://user-images.githubusercontent.com/75235488/174804261-c9913d66-4929-422e-82e2-5a118155771e.png)
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<img src="https://user-images.githubusercontent.com/75235488/174804261-c9913d66-4929-422e-82e2-5a118155771e.png" width="600">
 
 ### WALKING
-![Screenshot (56)](https://user-images.githubusercontent.com/75235488/174804304-8762c6a2-e250-47f5-9169-45e7b904abe2.png)
+<img src="https://user-images.githubusercontent.com/75235488/174804304-8762c6a2-e250-47f5-9169-45e7b904abe2.png" width="600">
 
 
 
