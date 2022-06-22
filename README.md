@@ -48,13 +48,11 @@ public class idleToCrouch : MonoBehaviour
     public float InputY;
     // Start is called before the first frame update
     void Start()
-    {
-        animator = this.gameObject.GetComponent<Animator>();
+    {   animator = this.gameObject.GetComponent<Animator>();
     }
     // Update is called once per frame
     void Update()
-    {
-        InputY = Input.GetAxis("Vertical");
+    {   InputY = Input.GetAxis("Vertical");
         InputX = Input.GetAxis("Horizontal");
         animator.SetFloat("InputY",InputY);
         animator.SetFloat("InputX", InputX);
@@ -67,8 +65,6 @@ public class idleToCrouch : MonoBehaviour
 
 ### WALKING
 <img src="https://user-images.githubusercontent.com/75235488/174804304-8762c6a2-e250-47f5-9169-45e7b904abe2.png" width="600">
-
-
 
 ## Result:
 Animator using unity is developed successfully.
